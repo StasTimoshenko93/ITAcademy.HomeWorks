@@ -1,0 +1,11 @@
+C:\git-hub\Solution\HW.02\bin\Debug\netcoreapp3.1\HW.02.exe
+C:\git-hub\Solution\HW.02\bin\Debug\netcoreapp3.1\HW.02.deps.json
+C:\git-hub\Solution\HW.02\bin\Debug\netcoreapp3.1\HW.02.runtimeconfig.json
+C:\git-hub\Solution\HW.02\bin\Debug\netcoreapp3.1\HW.02.runtimeconfig.dev.json
+C:\git-hub\Solution\HW.02\bin\Debug\netcoreapp3.1\HW.02.dll
+C:\git-hub\Solution\HW.02\bin\Debug\netcoreapp3.1\HW.02.pdb
+C:\git-hub\Solution\HW.02\obj\Debug\netcoreapp3.1\HW.02.csprojAssemblyReference.cache
+C:\git-hub\Solution\HW.02\obj\Debug\netcoreapp3.1\HW.02.AssemblyInfoInputs.cache
+C:\git-hub\Solution\HW.02\obj\Debug\netcoreapp3.1\HW.02.AssemblyInfo.cs
+C:\git-hub\Solution\HW.02\obj\Debug\netcoreapp3.1\HW.02.dll
+C:\git-hub\Solution\HW.02\obj\Debug\netcoreapp3.1\HW.02.pdb

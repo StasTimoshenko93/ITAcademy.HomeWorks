@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace HW._02
 {
@@ -15,6 +16,24 @@ namespace HW._02
             //    5.2 Запись переменных типа byte binary в массив типа byte imageBytes;
             //6. Запись массива типа byte imageBytes в файл image.png;
             //7. Использование метода dispose();
+
+
+            StreamReader textReader = new StreamReader(@"C:\image\image.txt", true);
+
+            string textReaderResult = textReader.ReadToEnd();
+            textReader.Dispose();
+
+            string[] arrayOfTextResult = textReaderResult.Split(' ');
+
+            byte[] imageBytes = new byte[arrayOfTextResult.Length - 1];
+
+            for (int i = 0; i < arrayOfTextResult.Length - 1; i++)
+            {
+                byte binary = Convert.ToByte(arrayOfTextResult[i], 2);
+                imageBytes[i] = binary;
+            }
+
+            File.WriteAllBytes(@"C:\image\image.png", imageBytes);
         }
     }
 }
