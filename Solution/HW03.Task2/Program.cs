@@ -21,7 +21,7 @@ namespace HW03.Task2
             Int64 e2 = 19;
 
             ushort f1 = 20;
-            UInt32 f2 = 21;
+            UInt16 f2 = 21;
 
             char g1 = 'a';
             Char g2 = 'a';
