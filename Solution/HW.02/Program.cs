@@ -15,7 +15,7 @@ namespace HW._02
             //    5.1 Конвертирование переменной по индексу типа string в byte и запись в переменную  типа byte binary;
             //    5.2 Запись переменных типа byte binary в массив типа byte imageBytes;
             //6. Запись массива типа byte imageBytes в файл image.png;
-            //7. Использование метода dispose();
+            //7. Использование метода dispose() - служит для освобождения не управляемых ресурсов до сборки мусора.
 
 
             StreamReader textReader = new StreamReader(@"C:\image\image.txt", true);
