@@ -1,0 +1,11 @@
+1. Open website booking.com;
+2. if you have an account do step 4;
+3. register;
+4. fill the form;
+5. push the button "search";
+6. choose the hotel;
+7. click on the header;
+8. read comments and description;
+9. if you like the hotel do the next step;
+   else go to step 6;
+10.reserve;
