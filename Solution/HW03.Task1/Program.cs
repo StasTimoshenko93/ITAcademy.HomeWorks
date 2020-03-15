@@ -6,7 +6,6 @@ namespace HW03.Task1
     {
         static void Main(string[] args)
         {
-
             #region  3 примера неявного преобразования типов
             byte byteToInt = 5;
             int byteToInt1 = byteToInt;
@@ -14,15 +13,11 @@ namespace HW03.Task1
             float floatToDouble = 2.5f;
             double floatToDouble1 = floatToDouble;
 
-
             int intToDecimal = 124567;
             decimal intToDecimal1 = intToDecimal;
 
-
-
             Console.WriteLine($"byteToInt1 : {byteToInt1}; floatToDouble1 : {floatToDouble1}; " +
                 $"intToDecimal1 : {intToDecimal1}; ");
-
             #endregion
 
             #region 3 примера явного преобразования типов
@@ -33,7 +28,6 @@ namespace HW03.Task1
             short shortToSbyte = 231;
             sbyte shortToSbyte1 = (sbyte)shortToSbyte;
 
-
             long longToInt = 65432;
             int longToint1 = (int)longToInt;
 
@@ -42,7 +36,6 @@ namespace HW03.Task1
             #endregion
 
             #region 3 примера операции упаковки(boxing)
-
             byte byteValueBox = 5;
             object byteValueBox1 = byteValueBox;
 
@@ -51,23 +44,17 @@ namespace HW03.Task1
 
             int intValueBox = 22;
             object intValueBox1 = intValueBox;
-
-
             #endregion
 
             #region 3 примера операции распоковки(unboxing)
-
             byte byteValueUnBox = (byte)byteValueBox1;
 
             char charValueUnBox = (char)charValueBox1;
 
             int intValueUnBox = (int)intValueBox1;
-
-
             #endregion
 
             #region int to short, boolean to byte; char to int;
-
             //Пример с упаковкой int типа и распаковкой в ushort тип
 
             int value = 10;
