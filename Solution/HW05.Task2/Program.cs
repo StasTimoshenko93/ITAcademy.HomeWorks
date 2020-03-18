@@ -22,16 +22,15 @@ namespace HW05.Task2
                         Console.WriteLine("go back");
                         break;
                     case "a":
-                        Console.WriteLine("turn right");
+                        Console.WriteLine("turn left");
                         break;
                     case "d":
-                        Console.WriteLine("turn left");
+                        Console.WriteLine("turn right");
                         break;
                     case "q":
                         Console.WriteLine("Game over");
                         flag = false;
                         break;
-
                     default:
                         Console.WriteLine("do nothing");
                         break;
