@@ -13,6 +13,9 @@ namespace HW05.Task1
                 alphabet += letter.ToString();
             }
             Console.WriteLine(alphabet.Remove(26,6).Insert(26,"   ")) ;
+
+            //Output:
+            //zyxwvutsrqponmlkjihgfedcba   ZYXWVUTSRQPONMLKJIHGFEDCBA
         }
     }
 }
