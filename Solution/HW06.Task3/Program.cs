@@ -39,10 +39,10 @@ namespace HW06.Task3
             long milsek = stopwatch.ElapsedMilliseconds;
 
             Console.WriteLine($"Random Array\n{string.Join(", ", randomArray)}");
-            //Console.WriteLine($"Random Array\n{string.Join(", ", reverseArray)}");
-
-            //Console.WriteLine($"Reverse() take time:{milsek}");
             Console.WriteLine($"My Method take time:{milsek}");
+            //Console.WriteLine($"Reverse Array\n{string.Join(", ", reverseArray)}");
+            //Console.WriteLine($"Reverse() take time:{milsek}");
+
         }
     }
 }

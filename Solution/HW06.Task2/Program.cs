@@ -9,7 +9,7 @@ namespace HW06.Task2
 
             int[] inputArray = new int[5];
 
-            for (int i = 0; i < inputArray.Length-1; i++)
+            for (int i = 0; i < inputArray.Length - 1; i++)
             {
                 Console.WriteLine("Input a number to Array");
                 inputArray[i] = Convert.ToInt32(Console.ReadLine());
@@ -26,8 +26,8 @@ namespace HW06.Task2
 
         static int[] AddNewNum(int[] array, int num, int index)
         {
-            
-            for (int i = array.Length-2; i >= index-1; i--)
+
+            for (int i = array.Length - 2; i >= index - 1; i--)
             {
                 array[i + 1] = array[i];
             }
