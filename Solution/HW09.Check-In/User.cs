@@ -40,7 +40,6 @@ namespace HW09.Check_In
         public string Id { get; set; } = "12345432134";
         public Ticket()
         {
-
         }
         public Ticket (bool isticket)
         {
@@ -51,6 +50,11 @@ namespace HW09.Check_In
     class Bag
     {
        public string mybag = "mybag";
-       public Bag() { }
+        public bool Weapon { get; set; } = false;
+        public Bag() { }
+       public  Bag(bool weapon)
+        {
+            Weapon = weapon;
+        }
     }
 }

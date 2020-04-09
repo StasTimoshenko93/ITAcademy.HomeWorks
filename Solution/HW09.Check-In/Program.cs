@@ -15,11 +15,7 @@ namespace HW09.Check_In
             Stas.Ticketcheck();
             Elena.GetTicket(Stas);
            
-
-
         }
-
-        
         public static void Greeting(object sender, EventManager e)
         {
             Console.WriteLine(e.msg);
