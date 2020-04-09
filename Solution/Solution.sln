@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW09.AssemblyOne", "HW09.As
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW09.AssemblyTwo", "HW09.AssemblyTwo\HW09.AssemblyTwo.csproj", "{2D2341B1-E295-4230-BDD3-C5AE4D70D43E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW09.Check-In", "HW09.Check-In\HW09.Check-In.csproj", "{6709AD2A-9B82-4DC4-B191-3B61210EF7CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{2D2341B1-E295-4230-BDD3-C5AE4D70D43E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D2341B1-E295-4230-BDD3-C5AE4D70D43E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D2341B1-E295-4230-BDD3-C5AE4D70D43E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6709AD2A-9B82-4DC4-B191-3B61210EF7CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6709AD2A-9B82-4DC4-B191-3B61210EF7CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6709AD2A-9B82-4DC4-B191-3B61210EF7CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6709AD2A-9B82-4DC4-B191-3B61210EF7CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

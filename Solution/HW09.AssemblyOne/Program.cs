@@ -21,6 +21,7 @@ namespace HW09.AssemblyOne
             motoInternal.maxspeedProtectedInternal = 12;
             motoInternal.namePublic = "BMW";
             motoInternal.GetNameInternal();
+            
 
             MotoInternalChild child1 = new MotoInternalChild();
             child1.maxspeedProtectedInternal = 15;

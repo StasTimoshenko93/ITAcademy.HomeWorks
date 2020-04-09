@@ -12,7 +12,7 @@ namespace HW09.AssemblyTwo
             motoPublic.namePublic = "Honda";
             //motoPublic.maxspeedProtectedInternal = 10; closed
             //motoPublic.GetNameInternal(); closed
-            //velocityPrivate = 12; closed
+            //motoPublic.velocityPrivate = 12; closed
             //motoPublic.SetNamePrivateProtected(); closed
             //motoPublic.MoveProtected(); closed
 
