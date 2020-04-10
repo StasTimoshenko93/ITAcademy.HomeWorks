@@ -2,6 +2,7 @@
 
 namespace HW09.Check_In
 {
+
     class Program
     {
         static void Main(string[] args)
@@ -14,7 +15,15 @@ namespace HW09.Check_In
             Elena.Registration(Stas);
             Stas.Ticketcheck();
             Elena.GetTicket(Stas);
-           
+            Elena.Security(Stas);
+            if (!Elena.IsArested)
+            {
+                Stas.ItsOk();
+            }
+            else
+            {
+                Stas.Arested();
+            }
         }
         public static void Greeting(object sender, EventManager e)
         {

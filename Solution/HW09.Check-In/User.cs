@@ -32,7 +32,16 @@ namespace HW09.Check_In
                 Console.WriteLine("У меня нет билета.");
             }
         }
-       
+
+        public void Arested()
+        {
+            Console.WriteLine("Это не мое. (начать убегать)");
+        }
+        public void ItsOk()
+        {
+            Console.WriteLine("Хорошо, спасибо!");
+        }
+
     }
     class Ticket
     {
@@ -49,12 +58,8 @@ namespace HW09.Check_In
         
     class Bag
     {
-       public string mybag = "mybag";
-        public bool Weapon { get; set; } = false;
+       public string[] mybag =new string[] { "Майка", "Трусы", "штаны"};
+        
         public Bag() { }
-       public  Bag(bool weapon)
-        {
-            Weapon = weapon;
-        }
     }
 }
