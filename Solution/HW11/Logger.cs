@@ -10,11 +10,7 @@ namespace HW11
 {
    public class Logger
     {
-
-
-
         private static ILog log = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
-
 
         public static ILog Log
         {
