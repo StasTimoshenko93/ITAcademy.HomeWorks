@@ -17,12 +17,23 @@ namespace HW.X
             {
                 Data.Motorcycles.Remove(moto);
             }
+            else
+            {
+                throw new ArgumentNullException();
+            }
         }
 
         public Motorcycle GetById(int Id)
         {
             Motorcycle moto = Data.Motorcycles.Find(item => item.Id == Id);
-            return moto;
+            if (moto != null)
+            {
+                return moto;
+            }
+            else
+            {
+                throw new ArgumentNullException();
+            }
         }
 
         public void Insert(Motorcycle moto)
