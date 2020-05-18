@@ -1,0 +1,4 @@
+2020-04-19 11:44:08,416 [1] INFO HW11.Logger - HW11, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+2020-04-19 11:44:08,430 [1] INFO HW11.Logger - Create object
+2020-04-19 11:44:08,431 [1] INFO HW11.Logger - The process of outputting data to the Console has begun
+2020-04-19 11:44:08,432 [1] INFO HW11.Logger - Program completed successfully
